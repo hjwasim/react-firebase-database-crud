@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  background-color: #1f1d2b;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  background-color: #363342;
+}
+
+.form-control {
+  background-color: #363342;
+}
+
+.form-control:focus {
+  border: none;
+  background-color: #363342;
+}
+
+.list>.card {
+  background-color: #1f1d2b;
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .col-8 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .col-8 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+}
